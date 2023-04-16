@@ -1,0 +1,5 @@
+num1 = input()
+num2 = input()
+mile = float(f'{num1}.{num2}')
+klm = (f'{round(mile * 1.61, 2)}')
+print(f'{mile} миль = {klm} км')

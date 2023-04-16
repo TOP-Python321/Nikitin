@@ -1,0 +1,5 @@
+name = input('Введите имя: ')
+surname = input('Введите фамилию: ')
+year_birth = input ('Введите год рождения: ')
+age = 2023 - int(year_birth)
+print(surname, name + ',', age)
