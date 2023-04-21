@@ -1,10 +1,19 @@
 num = input()
 
-num1 = int(num) // 100 
-num2 =  int(num) % 100 // 10
-num3 =int(num) % 10
+# КОММЕНТАРИЙ: цифра — digit, число — number, num
+num1 = int(num) // 100
+# КОММЕНТАРИЙ: избыточные вызовы int()
+num2 = int(num) % 100 // 10
+num3 = int(num) % 10
 
-sum = num1  + num2 + num3
+sum = num1 + num2 + num3
+# ИСПРАВИТЬ здесь и далее: лишний пробел в выводе
 print('Сумма цифр = ', sum)
-mult= num1 * num2 * num3
+mult = num1 * num2 * num3
 print('Произведение цифр = ', mult)
+
+
+# ДОБАВИТЬ: результат выполнения программы — в закомментированном виде
+
+
+# ИТОГ: нужно лучше — 2/4
