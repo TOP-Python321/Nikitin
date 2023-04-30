@@ -9,11 +9,12 @@ if num_two > 0:
 if num_three > 0:
     sum_num += num_three
 print(sum_num)
- 
-# Пример ввода:
+
+
 # 5
 # 3.2
 # -9
-
-# Пример вывода:
 # 8.2
+
+
+# ИТОГ: отлично — 3/3
